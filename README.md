@@ -7,9 +7,9 @@ Requirements
 --
 ------------
 
- - Swift 3
- - OS X Yosemite (10.10) or newer
- - Xcode 8
+ - [x] Swift 3
+ - [x] OS X Yosemite (10.10) or newer
+ - [x] Xcode 8
 
 Installation
 --
@@ -21,7 +21,7 @@ Usage
 ------------
 Once you have CocoaPDFCreator.swift as a file in your project, it's dead simple to make a PDF.
 
-    let htmlString = "<font face=\"Futura\" color=\"SlateGray\"><h2>Hello World</h2></font>" // replace Hello World with the contents of a text view or any other custom string
+    let htmlString = "<font face=\"Futura\" color=\"SlateGray\"><h2>Hello World</h2></font>" // replace Hello World with the string of a text view or any other custom string
     CreatePDF(htmlString: htmlString)
 
 You can go as intense as you want with the HTML: images, fonts, colors, headers, paragraph text, and more are supported. With that one line of code, a save dialog box will appear for the user, and a paginated PDF will be created from the HTML string with whatever name and save destination the user selects.
