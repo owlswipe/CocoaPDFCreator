@@ -29,7 +29,7 @@ You can go as intense as you want with the HTML: images, fonts, colors, headers,
 Acknowledgements
 --
 ------------
-Made with ❤️ in NYC by [Henry Stern](one-studio.tumblr.com).
+Made with ❤️ in NYC by [Henry Stern](http://one-studio.tumblr.com).
 
 
 Note about Sandboxing
