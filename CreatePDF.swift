@@ -1,10 +1,10 @@
 import Cocoa
 import WebKit
 
-@objc public func CreatePDF(htmlString: String) {
+public func CreatePDF(htmlString: String) {
    var webView = WebView()
    webView.mainFrame.loadHTMLString(htmlString, baseURL: nil)
-   let when = DispatchTime.now() + seconds
+   let when = DispatchTime.now() + 1
    DispatchQueue.main.asyncAfter(deadline: when) {
    let printOpts: [String : AnyObject] = [NSPrintJobDisposition:NSPrintSaveJob]
    let printInfo: NSPrintInfo = NSPrintInfo(dictionary: printOpts)
