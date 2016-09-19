@@ -8,7 +8,7 @@ Requirements
 ------------
 
  - [x] Swift 3
- - [x] OS X Yosemite (10.10) or newer
+ - [x] OS X Mavericks (10.9) or newer, tested to support El Capitan.
  - [x] Xcode 8
 
 Installation
