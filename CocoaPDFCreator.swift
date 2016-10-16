@@ -6,7 +6,7 @@ public func CreatePDF(htmlString: String) {
     webView.mainFrame.loadHTMLString(htmlString, baseURL: nil)
     let when = DispatchTime.now() + 1
     DispatchQueue.main.asyncAfter(deadline: when) {
-        let printOpts: [String : AnyObject] = [NSPrintJobDisposition:NSPrintSaveJob]
+        let printOpts: [String : AnyObject] = [NSPrintJobDisposition:NSPrintSaveJob as AnyObject]
         let printInfo: NSPrintInfo = NSPrintInfo(dictionary: printOpts)
         printInfo.paperSize = NSMakeSize(595.22, 841.85)
         printInfo.topMargin = 10.0
